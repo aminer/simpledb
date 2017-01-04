@@ -33,7 +33,7 @@ public class Tuple implements Serializable {
      * @return The TupleDesc representing the schema of this tuple.
      */
     public TupleDesc getTupleDesc() {
-        return td;
+    	return td;
     }
 
     /**
@@ -41,7 +41,7 @@ public class Tuple implements Serializable {
      *         be null.
      */
     public RecordId getRecordId() {
-        return rid;
+    	return rid;
     }
 
     /**
